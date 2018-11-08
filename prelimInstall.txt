@@ -1,0 +1,29 @@
+Install root(CERN) with prerequisites
+
+> sudo apt install libjpeg-dev
+> sudo apt install libtiff-dev
+> sudo apt install libpng-dev
+
+Leptonica:
+> sudo apt install libwebp-dev
+> sudo apt install libopenjp2-7-dev
+> git clone https://github.com/DanBloomberg/leptonica
+compile and build with cmake
+> sudo make install
+
+Tesseract:
+> git clone https://github.com/tesseract-ocr/tesseract
+cmake, make, install
+>sudo ldconfig
+~~ still not clear how to install languages this way ... look below for default option
+///
+> sudo apt install tesseract-ocr
+> sudo apt install tesseract-ocr-ron
+
+for python3
+> sudo apt install python3-pip
+
+PyOCR:
+> pip3 install pyocr
+
+> python3 -m pip install Pillow
